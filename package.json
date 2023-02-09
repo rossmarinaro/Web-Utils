@@ -1,0 +1,22 @@
+{
+  "name": "@pastaboss/web-utils",
+  "version": "1.0.0",
+  "description": "common helpful web utilities",
+  "main": "Utils.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossmarinaro/web-utils.git"
+  },
+  "keywords": [
+    "webutils"
+  ],
+  "author": "remaremyinitials",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rossmarinaro/web-utils/issues"
+  },
+  "homepage": "https://github.com/rossmarinaro/web-utils#readme"
+}
