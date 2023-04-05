@@ -15,6 +15,10 @@ Utils.strings.removeUnderscore('my_string');
 
 //result: 'mystring' 
 
+or:
+
+console.log(Utils.numbers.multiplyDecimals(0.1, 0.1));
+
 ```
 
 
