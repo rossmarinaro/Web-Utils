@@ -107,18 +107,8 @@ class Utils {
         }
     }
         
-    //------------------------------------------ get file type 3d
-
-    public static async getFileType(key: string): Promise<Readonly<string>>
-    {
-        const extension = key.endsWith('glb') ? 'glb' : 'fbx';
-
-        return extension;
-    }
 
 
-
-    
 }
 
 
