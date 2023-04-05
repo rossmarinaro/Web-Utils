@@ -5,7 +5,24 @@ class Utils {
 
 
     public static numbers = {
-        multiplyDecimals: (valA: number, valB: number) => { return (valA * 10 + valB * 10) }
+
+        multiplyDecimals: function (a: number, b: number): number
+        { 
+            return (a * 10 + b * 10);
+        },
+        inRange: function(x: number, a: number, b: number): boolean
+        { 
+            return x >= a && x <= b; 
+        },
+        clamp: function (x: number, a: number, b: number): number 
+        {
+            return Math.min(Math.max(x, a), b);
+        },
+        lerp: function (x: number, a: number, b: number): number
+        {
+            return x * (b - a) + a;
+        }
+        
     }
 
     public static strings = {
